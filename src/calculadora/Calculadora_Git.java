@@ -71,4 +71,8 @@ public class Calculadora_Git {
         return multiplicacion;
     }
 
+    public double division() {
+        double division = numero1 / numero2;
+        return division;
+    }
 }
