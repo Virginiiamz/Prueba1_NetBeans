@@ -10,26 +10,27 @@ package calculadora;
  * @author Lenovo
  */
 public class Calculadora_Git {
-    
+
     private String nombre;
     private double numero1;
     private double numero2;
 
-    public Calculadora_Git(String nombre, double numero1, double numero2){
+    public Calculadora_Git(String nombre, double numero1, double numero2) {
         this.nombre = nombre;
         this.numero1 = numero1;
         this.numero2 = numero2;
     }
-     public Calculadora_Git(double numero1, double numero2){
+
+    public Calculadora_Git(double numero1, double numero2) {
         this.numero1 = numero1;
         this.numero2 = numero2;
     }
-    public Calculadora_Git () {
-        
+
+    public Calculadora_Git() {
+
     }
 
     // sets and gets
-
     public String getNombre() {
         return nombre;
     }
@@ -53,17 +54,21 @@ public class Calculadora_Git {
     public void setNumero2(double numero2) {
         this.numero2 = numero2;
     }
-    
-        //métodos aritméticos
 
+    //métodos aritméticos
     public double suma() {
-        double suma=numero1+numero2;
+        double suma = numero1 + numero2;
         return suma;
     }
 
     public double resta() {
-        double resta=numero1-numero2;
+        double resta = numero1 - numero2;
         return resta;
     }
-    
+
+    public double multiplicacion() {
+        double multiplicacion = numero1 * numero2;
+        return multiplicacion;
+    }
+
 }
